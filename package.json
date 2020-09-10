@@ -1,0 +1,22 @@
+{
+  "name": "weather-telegram-bot",
+  "version": "1.0.0",
+  "description": "Weather bot for telegram application",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "author": "Aleksandr Kovalyov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  }
+}
